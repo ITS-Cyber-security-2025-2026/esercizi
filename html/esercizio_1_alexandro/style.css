@@ -1,0 +1,75 @@
+/* --- Stile generale della pagina --- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faf6ef;
+    margin: 0;
+    padding: 20px;
+    color: #5a2d0c;
+}
+
+/* --- Titoli --- */
+h1 {
+    text-align: center;
+    color: #8b4513;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #8b4513;
+}
+
+/* --- Lista delle ricette nella home --- */
+ul {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+li:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* --- Link --- */
+a {
+    text-decoration: none;
+    color: #5a2d0c;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+}
+
+a:hover {
+    color: #d2691e;
+}
+
+/* --- Stile delle pagine ricetta --- */
+.ingredienti, .preparazione {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.ingredienti ul, .preparazione ol {
+    list-style: inside;
+}
+
+img {
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
